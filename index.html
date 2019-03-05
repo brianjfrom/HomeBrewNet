@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Homebrewnet (Renewed)</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <style media="screen">
+      body {
+        background-color: lightyellow;
+      }
+      .main {
+        display: grid;
+        grid-template-areas: "head head head head head head"
+                             "sbar welc welc welc welc welc"
+                             "sbar welc welc welc welc welc"
+                             "hb10 hb10 hb10 hb10 hb10 hb10"
+                             "gsgs gsgs gsgs gsgs gsgs gsgs"
+                             "breh breh breh breh breh breh"
+                             "brew brew brew misc misc misc"
+                             "fbob fbob fbob fbob fbob fbob"
+                             "fb01 fb01 fb01 fb01 fb01 fb01"
+                             "yfhd yfhd yfhd yfhd yfhd yfhd";
+      }
+       /* @media screen and (max-width 800px){
+      .main{
+        display: grid;
+        grid-template-areas: "head head head head head head"
+                             "sbar welc welc welc welc welc"
+                             "sbar welc welc welc welc welc"
+                             "hb10 hb10 hb10 hb10 hb10 hb10"
+                             "gsgs gsgs gsgs gsgs gsgs gsgs"
+                             "breh breh breh breh breh breh"
+                             "brew brew brew brew brew brew"
+                             "misc misc misc misc misc misc";}
+      } */
+      .header {
+        grid-area: head;
+        font-family: Courgette;
+        font-size: 3em;
+        text-shadow: 2px 2px 2px lightblue;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-image: url(https://images5.alphacoders.com/415/415977.jpg);
+
+      }
+      .sidebar {
+        grid-area: sbar;
+      }
+      .sidebar ul {
+        margin: 0;
+        padding: 0;
+      }
+      .sidebar li {
+        list-style-type: none;
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 1.75em;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      .welcome {
+        grid-area: welc;
+        font-size: 1.5em;
+        margin: 10px;
+      }
+      .welcome img  {
+        float: left;
+        margin-right: 10px;
+      }
+      .hb101 {
+        grid-area: hb10;
+      }
+      .gs {
+        grid-area: gsgs;
+        font-size: 1.25em
+      }
+      .gs .img1 {
+        float: left;
+        padding-right: 15px;
+      }
+      .gs .img2 {
+        float: right;
+      }
+      .gs .img3 {
+        float: right;
+      }
+      .brewhead {
+        grid-area: breh;
+      }
+      .logo {
+        color: lightyellow;
+        text-shadow: 1px 1px black;
+      }
+      .brew1 {
+        grid-area: brew;
+        font-size: 1.25em;
+      }
+      .misc {
+        grid-area: misc;
+        font-size: 1.25em;
+        padding-left: 25px;
+      }
+      .fbobhead {
+        grid-area: fbob;
+      }
+      .banhead {
+        font-family: verdana;
+        background-color: lightblue;
+      }
+      .banhead ul {
+        margin: 0;
+        padding: 0;
+      }
+      .banhead li {
+        display: inline;
+        padding-right: 15px;
+      }
+      .fbob{
+        grid-area: fb01;
+        font-size: 1.25em;
+      }
+      .new {
+        color: blue;
+      }
+      .yafhead {
+        grid-area: yfhd;
+      }
+    </style>
+  </head>
+  <body>
+  <div class="main">
+   <div class="header">
+     <h1>Homebrewnet</h1>
+   </div>
+   <div class="sidebar">
+     <ul>
+       <li><a href="#hb101">Homebrewing 101</a></li>
+       <li><a href="#">Recipes</a> </li>
+       <li><a href="#">Calculations</a> </li>
+       <li><a href="#">Links</a> </li>
+     </ul>
+   </div>
+    <div class="welcome">
+      <img src="https://initiate.alphacoders.com/images/981/cropped-200-200-981891.jpg?3930" alt="hops-and-grain">
+     <p>Welcome to Homebrewnet, this website was originaly hosted by Geocities back in the late 1990's. During that time the moderen internet was very young and so was the creator of this page.  Time has passed and this host of information faded away, much like Geocities itself. Now is the time to renew the page and bring it back from the dead.</p>
+     <p>Homebrewnet was an experiment of sorts, here was a young kid that enjoyed brewing, (and drinking), and wanted to show his knowlege to the world.  Learning how to code in early days of html was... hard. Things did not look as good as they do today.  Please enjoy the renewal.</p>
+   </div>
+   <div class="hb101" id="hb101">
+     <div class="banhead">
+     <ul>
+       <li class="logo"><b>Homebrewing 101</b></li>
+       <li><a href="#">Getting Started</a> </li>
+       <li><a href="#brewing">Brewing 101</a> </li>
+       <li><a href="#">Your First Batch</a> </li>
+       <li><a href="#">Yeast and Fermenting</a> </li>
+       <li><a href="#">Second Fermentation</a> </li>
+       <li><a href="#">Bottiling and Ageing</a> </li>
+     </ul>
+   </div>
+   </div>
+   <div class="gs">
+    <a href="http://byo.com/"><img class="img1" src="https://byo.com/wp-content/uploads/Brew-Your-Own-issue-beginners-guide-to-homebrewing.jpg" alt="byo.com" height="300"></a>
+    <a href="http://www.amazon.com/New-Complete-Joy-Home-Brewing/dp/0380763664/ref=sr_1_2?crid=2OR73KRXSZG9G&keywords=the+new+complete+joy+of+homebrewing&qid=1551608701&s=gateway&sprefix=the+new+compleate+%2Caps%2C176&sr=8-2"><img class="img2" src="https://m.media-amazon.com/images/I/51lQTEYqIqL._AC_UL436_.jpg" alt="bookimg" height="300"> </a>
+     <p>So you are now thinking of making your own batch of homebrew.  Be it that your good friend gave you a batch of their homebrew, or maybe you just saw a starter kit at a local "chain" store.  The fact is that you have decided to start.</p>
+
+    <p>First off before you can start homebrewing there are a few things that you need to know.  Like how to do it and what kind of equipment to use.  Personally I wouldn't just run out and buy that $120.00 kit not knowing just a little bit about what you are buying and why.  As well as a little general knowledge. Knowing a little can save you a lot!!!</p>
+
+    <p>Before you get started, I have a few good ideas that will help in the long run.  Today there is a lot of great literature out there for the beginning homebrewer, though where to start?  A book that I would <b>HIGHLY, HIGHLY</b> recommend is <em>"The new Complete Joy Of Homebrewing,"</em> by Charlie Papazian.  This has been stated as "The Homebrew Bible,"  it really is, if you haven't checked it out, you might like to.</p><br>
+    <p>Here is a basic list of equipment that you will need to start your first batch of homebrew:</p>
+    <img class="img3" src="https://web.archive.org/web/20020216161916im_/http://www.geocities.com/NapaValley/Vineyard/3270/equipment.gif" alt="brewing-equp">
+    <ul>
+      <li>Either a 6 or a 5 gallon carboy, plastic, or glass (your preference)</li>
+      <li>A lid or rubber stoper (depending on carboy)</li>
+      <li>A waterlock</li>
+      <li>A boiling pot (at least 5 gallons)</li>
+      <li>Aprox. 4-5 feet  of plastic tubing</li>
+      <li>Large cleaning brush</li>
+      <li>A bottle capper, (some shops may rent for a day, could save you a dollar or two)</li>
+      <li>Bottles and caps.  (think used)</li>
+    </ul>
+    <p>Some of the extra equipment includeds:</p>
+      <ul>
+        <li> Thermometer</li>
+        <li>Hydrometer</li>
+        <li>Racking cane</li>
+        <li>Tempeture jackets</li>
+        <li>The list goes on and on.</li>
+      </ul>
+   </div>
+   <div class="brewhead" id="brewing" >
+     <div class="banhead">
+     <ul>
+       <li><a href="#hb101"></a>Homebrewing 101</li>
+       <li><a href="#hb101">Getting Started</a> </li>
+       <li class="logo"><b>Brewing 101</b> </li>
+       <li><a href="#">Your First Batch</a> </li>
+       <li><a href="#">Yeast and Fermenting</a> </li>
+       <li><a href="#">Second Fermentation</a> </li>
+       <li><a href="#">Bottiling and Ageing</a> </li>
+     </ul>
+   </div>
+   </div>
+   <div class="brew1">
+     <h2>Brewing 101</h2>
+     <p>Now that you have decided to make your first batch of beer, and have all of your equipment.  You must now decided what type of beer you are going to make.  There are a lot of beer types in the world now day, and knowing what they are can be quite a difficulty.  Ok, first off there are two main types of beers, lagers and ales.  Now the only thing that distinguishes lagers from ales are the way that they ferment. Now let me break it down.</p>
+     <h3>Lagers</h3>
+     <p>Lagers have a very type specific yeast.  This yeast will only produce lagers, and cannot produce ales.  Which causes the major differences in beers.  So now by saying that, I will describe why the yeast is so type specific.  Lager yeast as opposed to ale yeast prefers a cooler temperature to grow.  Now that does not mean that it will not grow at the same temperature as ales, just that it preferes cooler temperatures.  A lager is normally brewed at a temperature of around 40-55 F, where is an ale likes a range of around 60-75 F. If you decided to make a lager, note that you may need an extra refrigerator to keep you beer at that optimal tempature range.  Though you may be able to keep it in your normal refrigerator, more than likley it will begin to take up too much space.  Lagers also may vary because of the way that they ferment.  Lagers will normaly only ferment on the bottom of the carboy, meaning different fermentation times and reaction.
+      <br>Some of the more common lagers would be your local domestic beer, Coors, Budweiser, Miller, etc.. Though there is a lot more out there then just this one type.  Explore and find a lager that you like best, then try to reproduce it, that is the fun part of homebrewing</p>
+      <h3>Ales</h3>
+      <p>Ales are the more common beers in homebrewing today, for a lot of reason.  First is that they are very hearty and prefer to grown in more of a room tempature.  Which people prefer because they can just set their carboy out in a corner and do not have to buy extra equipment to keep thier brew cool.  There are a lot of ale beers to be had, though most people do not realize that a good percent of all un-American beers are ales.  Most, but not all of your German, Belgian, and English beers are ales.  A few examples are: Hefeweisen, Lambic, English pale ale, IPA, etc..  So keep in mind when choosing a recipe and a beer to drink that there is a lot out there.
+
+      <br>On another note, like Lagers, Ales too have a set place of fermentation.   Lagers prefer to ferment on the bottem of the carboys, Ales prefer the to ferment on the top of the carboy.</p>
+      <h3>Yeast and Bacteria</h3>
+      <p>Yeast is the thing that makes the barrel of grain water into something special.  The addition of yeast creates alcohol. CO<sub>2</sub> and other flavors.  Many different yeasts exist in the brewing world.  Some are broken down by region (German, English, American…).  Some are based on popular styles (Ales and Lagers). Some people use bread yeast, although not as effective as a brewer’s yeast, it can produce beer.  Try as many as you like and remember that strains change from year to year and manufactures.
+        <br>Sometime you will run across a recipe that calls for a mixed strain or odd yeast type.  Don't fret about it, most of these yeast grow somewhere in a happy medium between ales and lager.  Though there are some recipes that will call for you to add a specific bacteria into your homebrew, usually a couple of days after you have pitched your yeast and have started fermenting.  Remember that like bactera, yeast too is a microorganism, that has living functions and can altered by a foreign invader.  These will not hurt you though, because by the time that fermentation is over, most all of the yeast and all of the bacteria of removed. </p>
+    </div>
+        <div class="misc">
+          <h3>Common brewing ingredients</h3>
+          <p>Some of the more common brewing ingredients include: (for malt and partial grain brewing): Malt (Malted Barley), Hops, Speciality Grains, Yeast (discussed left), and Water.</p>
+          <h4>Malt</h4>
+          <p>Malt that wonderful sugar that is created from barley.  Malt is made from barley that has been left in water to be germinated, when that barley has just about fully germinated they take it out and dry it.  The resulting product is called Malt.  Malt in your beer is the suger substance that the yeast feeds on to make alcohol, as well as gives you the flavor or your wonderful brew.   You can either buy malt as a grain or after it has been processed (liquid/powder malt).  There are many different types of malt though the only thing that makes them different from one another is the way that it is roasted or dried.  i.e.  A crystal malt would be a lot lighter then a chocolate malt.  Know what your recipe calls for, or the desired flavor of the beer.  Because like the grain malt, the liquid malt comes many different types.</p>
+          <h4>Hops</h4>
+          <p>For anybody that has ever smelled hops they know the smell quite well, for those who have not, all that I can say is that it reminds me of alfalfa.  Though the smell all the same is quite nice.  Hops are a flowing green that when ripe produce a buds that are used in homebrewing.  There are many reasons to use hops in your homebrew, the main reason is for bitterness.  The higher the amount of hops the more bitter your beer will be.  Though some hops tend to be "more" bitter than others.  Hops also like most things in hombrewing come in many different forms for hombrewing.  The main thing is pick one that you like best to use.  There are whole hops, pellets, plugs and hop extract.  Personally I use the pellets, I think that they are the easiest to use.  Also I would recommend that unless you have a lot of experience in homebrewing, stay away from extracts.  Things can go to shit fast when using extract!
+          <br><em>"Hops are also used in brewing for their antibacterial effect over less desirable microorganisms and for purported benefits including balancing the sweetness of the malt with bitterness and a variety of flavours and aromas. Historically, traditional herb combinations for beers were believed to have been abandoned when beers made with hops were noticed to be less prone to spoilage."</em><a href="https://en.wikipedia.org/wiki/Hops">-Wikipedia.org</a> </p>
+          <h4>Specialty Grains</h4>
+          <p>Specialty grain are one of the most important aspects to a homebrewer.  Theses grains are what gives a beer color and flavor.  These grains are much like the liquid malt that you will use, though the main difference is the time that they are add to the beer, and the tempature that they need to be kept at.  These grains also come in a varity of kinds and levels.  Some examples would be Crystal, Chocholate, Roasted, etc..  The main thing is try to learn what grain will do what for you. </p>
+          <h4>Water</h4>
+          <p>Try to remember that your beer that you make is nothing more than 98% water, so the type of water that you use is very important.  Now any type of water can be used in homebrewing, though there may be reasons that you would not want to.  Here are the specific types.</p>
+          <h5>Home Tap Water</h5>
+          <p>Home tap water can be used though there are some things to consider when doing so.  What is the level of minerals, what is the pH of the water.  Too many minerals can add nasty flavors to your homebrew, to even possibly ruining it. Also with that if you have a pH that is too acidic or too alkaline these factors can be disastrous to your homebrew.  A good pH for hombrewing is around 7 or neutral to as low as 6.5.   So consider very wisely when using tap water.</p>
+          <h5>Spring and Distilled water</h5>
+          <p>Spring water is usually good to use because all levels must be contolled when they bottle it.  Also Distilled water is good to use because the pH is around 7 and all minerals are not present.  But even that can be a problem, sometimes you have to add some minerals back in.  Personally I use distilled in the boil and spring in the filler water.</p>
+        </div>
+        <div class="fbobhead" id="fbobhead">
+          <div class="banhead">
+          <ul>
+            <li><a href="#hb101"></a>Homebrewing 101</li>
+            <li><a href="#hb101">Getting Started</a> </li>
+            <li><a href="#brewing">Brewing 101</a> </li>
+            <li class="logo"><b>Your First Batch</b></li>
+            <li><a href="#">Yeast and Fermenting</a> </li>
+            <li><a href="#">Second Fermentation</a> </li>
+            <li><a href="#">Bottiling and Ageing</a> </li>
+          </ul>
+        </div>
+        </div>
+        <div class="fbob">
+          <p>Ok, you have now got all of your equipment and ingredients and are now ready to make your first batch of homebrew.  Here is a walkthrough of malt brewing as well as some do's and do not's.</p>
+          <h4>Malt Brewing Walkthrough</h4>
+          <p>Ok first thing first, one of the things that all homebrewers need to do is keep organized.  So the first thing that you need to do is organize all your equipment and ingredients so that they are easy to get a hold of.</p>
+          <P class="new">Ok most of the content that you have read up to this point has been the original Homebrewnet page, minus a few grammar and spelling changes.  At this point now, I need to add something new and from this point forward I will change the font color to blue.  Step one you do need to organize your equipment and ingredients.   However, the most important step in step one is you need to sanitize your equipment (all of it). I cannot stress this enough, if you do not sanitize you could end up very sick.  The lovely wort you are about to create is great for yeast and bacteria, good and bad bacteria.  Bad bacteria like E. coli and Listeria. The easiest way to not get sick is to sanitize, period.  <br>Sanitizing is not hard, it can be with household bleach.  Bleach works well (1tablespoon per gallon of water), but can leave a lasting bleach smell. The other option is commercial sanitizer for brewing.  It can be found on <a href="http://amazon.com">Amazon</a> and just follow the directions on the bottle.  Most commercial sanitizers do not leave a smell or residue. </P>
+          <p>Second thing is, yeast.  If you have decided to use dry yeast then go on to the next step, though you may want to read the following because you may want to use liquid yeast sometime.  For all of you that are using liquid yeast you will need to start it by the company's instructions.  More than likely it will take a good 24 hours to be ready to use.   So make sure that you have started your yeast long before you start brewing.  Some advantages to liquid yeast is that you do not have to rehydrate it as well as the yeast when you pitch it into the wort will not be in that dormant state.  Also and this is an opinion, I think that the liquid yeast gives that better beer flavor.</p>
+          <p>From here on out is the fun part.  Now for the actual "brewing" process.  First thing that you want to do is grab that boiling pot and place about 2 1/2 to 3 gallons of water in it.  Use the water that you think would be best for your homebrew, if you are uncertain look over "water" in brewing 101. <strike> Now here is great recommendation if you are using an electric stove.  Get a "WIRE" hanger that has no plastic on it and bend it to form a ring that will go over your burner and under your boiling pot.</strike> (<em class="new">The wire under the pot is not really necessary if you have a nice heavy bottomed bolling pot.</em>)  Add the pot to the heat and turn the heat on at about med/high.  Now if you are using specialty grains place them in a "hop sock" and add them to the water at this time.  These will stay in the water until it is just about to boil.  If you leave them in too long it can cause really nasty Tannin's to be released, so make sure that you remove on time.  Also when removing grains do not squeeze the bag this too can cause the release of tannins.  When you water comes to a boil remove from heat. </p>
+          <p>The reason that you want to take the water off the boil is because when you add the malt you can have the tendency to burn the malt to the bottom of the pot, which can cause nasty flavors.  So open the malt and add it to the water and mix well while doing so.  When you think that you have mixed the malt in as good as you can place it back onto the burner and stir it until you get the wort to boil again.  When the wort is to a boil take the hops and add them to a hop sock and add them into the boiling wort.  A hint and suggestion, keep your boil at about med/high to high, and keep and eye on it at all times.  That second that you turn away is the time that you're wonderful creation will boil over and ruin everything.  There is nothing worse than trying to get sticky malt off your burner.  Trust me it gets everywhere. </p>
+          <p>Ok back to the hops, these are known as boiling hops, why, well because they are left in at the boil only.  You will want to leave them in that boil for no less than 30 minutes, though personally I like to leave them in the boil for about 60-90 minutes.  This will get all of that hop flavor out, though if you are using a real strong hop, you may want to use less of it or leave it in the boil less time. </p>
+          <p>Now when you think that the hops have been in the boil long enough, it is now time to add the finishing hops.  Which is usually a little amount of what you first hops were though can be totally different, or your recipe can not have any finishing hops at all.  <br>Add the hops to yet another hop sock and add them to the boiling wort for about 3-5 minutes, depending on the flavor that you are looking for.  All that the finishing hops are going to do is add the hop flavor and aroma.   When you are done take the pot off the stove again, because you are done with the boil.</p>
+          <p>From here there are several schools of thought to what should be done.  I am only going to give one, because it was what was taught to me and it really hasn't failed me yet.  In fact this method get rid of some of the mistakes than can happen when brewing.  Take a thermometer that has been sterilized and add it to the pot, a floating thermometer works really well for this.  Then cover the pot as best that you can.  Now from here you need to cool your homebrew so that you can add the yeast to it.  The method that has worked for me is to fill my bathtub up with cold, cold water and place the boiling pot in there for about 45 minutes.  If you use this method remember not to get any of the surrounding water in the pot it can cause contamination.  However you decide to cool the wort, it really needs to be done.  Some people have suggested that you can just add the hot water to the cold filler water and it will be fine.  Sure but the only problem with this is that if you oxidize hot wort, that oxygen can cause nasty, nasty flavors.  In fact this is one of the main reasons that many hombrewer's first batch of beer turn out bad, rancid and nasty.  So by cooling it first you eliminate a lot of those problems.</p>
+          <p class="new">Another great way to cool your boil is something <a href="http://www.goodeatsfanpage.com/season6/beer/beertrans.htm">Alton Brown</a> used.  The remaining water needed for your carboy can be ice.  So if you need 2 gallons of water (1 pint is a pound “the world around,” 8 pints to a gallon, 8 pounds x 2 = 16lbs of ice). However, Alton used 8lbs of ice and 1 gallon of spring water.  Anyway, add the ice the carboy and slowly add the hot liquid to carboy. Softly lid and wait 2 hours to pitch the yeast. </p>
+          <p>After the 45 minutes or so uncover the pot and check the temperature, is should be somewhere around room temperature (approx. 70 degrees).  If it is not around room temperature then you will need to leave it in the bathtub until it is.  After it has reached that perfect temperature, take it back to where you are going to rack it into the fermenter.  Be careful not to slosh around the wort, because yes even still you can oxidize the wort and cause nasty flavors. </p>
+          <p>Into the fermenter add the 2 1/2 gallons of cold water, this is the time that I use the spring water, though you can use what ever you would like to.  Now to the fermenter rack the wort into the water.   What I mean by rack is grab that 3-4 foot plastic tubing and get a siphon going from the boiling pot to the fermenter.  Be careful not to oxidize the wort, the best way to do this is to run the fermenter end of the tubing down the fermenter wall and into the water.  Be sure and remove all of the wort into the fermenter, except the very bottom, which there will  be a lot of crap, try not to get this into you fermenter.  Though if a little does get in there it is ok, if won't kill anything, including you.  From here, with the exception to "unpopular" belief do not stir, mix, slosh, or shake, these movements can be very devastating to your homebrew.   </p>
+          <p>Now it is time to add your yeast, if you are using liquid yeast, this is very easy.  Clean the package that the yeast comes in and then dump the contents into the fermenter, that's it.   Make sure that the liquid yeast has "puffed up" before you add it, (about 24 hours before brewing).   If you are using dry yeast you will need to rehydrate it first.  This is the normal procedure that comes on all packages, though if it is different, use the manufactures instructions first.  Ok here it is, get a cup of warm water and put it into a clean <span class="new">and sanitized</span> bowl, add the dry yeast, do not stir, but let sit 10-15 minutes, then stir up and add to your fermenter, pretty easy.  Now from here the only thing left to do is place the cover on to the fermenter, fill the water lock and place it on the fermenter.  Be sure that you DO NOT stir in the yeast, it will mix on it's own in about an hour or so.  Only thing left to do is place the fermenter in a corner and let it do its thing.  You will know when fermentation has started when the water lock starts bubbling, which should be anywhere from 12 hours to three days, depending on the yeast and the brew. </p>
+        </div>
+    <div class="yafhead" id="yafhead" >
+      <div class="banhead">
+        <ul>
+          <li><a href="#hb101"></a>Homebrewing 101</li>
+          <li><a href="#hb101">Getting Started</a> </li>
+          <li><a href="#brewing">Brewing 101</a> </li>
+          <li><a href="#fbobhead">Your First Batch</a> </li>
+          <li class="logo" <b>Yeast and Fermenting</b> </li>
+          <li><a href="#">Second Fermentation</a> </li>
+          <li><a href="#">Bottiling and Ageing</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
