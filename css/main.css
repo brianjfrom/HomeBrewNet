@@ -1,0 +1,144 @@
+body {
+  background-color: lightyellow;
+}
+body p {
+  margin: 10px;
+}
+.main {
+  display: grid;
+  grid-template-areas: "head head head head head head"
+                       "sbar welc welc welc welc welc"
+                       "sbar welc welc welc welc welc"
+                       "hb10 hb10 hb10 hb10 hb10 hb10"
+                       "gsgs gsgs gsgs gsgs gsgs gsgs"
+                       "breh breh breh breh breh breh"
+                       "brew brew brew misc misc misc"
+                       "fbob fbob fbob fbob fbob fbob"
+                       "fb01 fb01 fb01 fb01 fb01 fb01"
+                       "yfhd yfhd yfhd yfhd yfhd yfhd"
+                       "yafp yafp yafp yafp yafp yafp"
+                       "seco seco seco seco seco seco"
+                       "secd secd secd secd secd secd"
+                       "bthd bthd bthd bthd bthd bthd"
+                       "bott bott bott bott bott bott"
+                       "foot foot foot foot foot foot";
+}
+ 
+.header {
+  grid-area: head;
+  font-family: Courgette;
+  font-size: 3em;
+  text-shadow: 2px 2px 2px lightblue;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(https://images5.alphacoders.com/415/415977.jpg);
+
+}
+.sidebar {
+  grid-area: sbar;
+}
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+.sidebar li {
+  list-style-type: none;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 1.75em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.welcome {
+  grid-area: welc;
+  font-size: 1.5em;
+  margin: 10px;
+}
+.welcome p  {
+  margin: 10px;
+}
+.hb101 {
+  grid-area: hb10;
+}
+.gs {
+  grid-area: gsgs;
+  font-size: 1.25em
+}
+.gs .img1 {
+  float: left;
+  padding-right: 15px;
+}
+.gs .img2 {
+  float: right;
+}
+.gs .img3 {
+  float: right;
+}
+.brewhead {
+  grid-area: breh;
+}
+.logo {
+  color: lightyellow;
+  text-shadow: 1px 1px black;
+}
+.brew1 {
+  grid-area: brew;
+  font-size: 1.25em;
+}
+.misc {
+  grid-area: misc;
+  font-size: 1.25em;
+  padding-left: 25px;
+}
+.fbobhead {
+  grid-area: fbob;
+}
+.banhead {
+  font-family: verdana;
+  background-color: lightblue;
+}
+.banhead ul {
+  margin: 0;
+  padding: 0;
+}
+.banhead li {
+  display: inline;
+  padding-right: 15px;
+}
+.fbob{
+  grid-area: fb01;
+  font-size: 1.25em;
+}
+.new {
+  color: blue;
+}
+.yafhead {
+  grid-area: yfhd;
+}
+.yaf {
+  grid-area: yafp;
+  font-size: 1.25em;
+}
+.secondhead {
+  grid-area: seco;
+}
+.secfer {
+  grid-area: secd;
+  font-size: 1.25em;
+}
+.bottlehead {
+  grid-area: bthd;
+}
+.bottle {
+  grid-area: bott;
+  font-size: 1.25em
+}
+.footer {
+  grid-area: foot;
+  font-family: Courgette;
+  text-align: center;
+  font-size: 1em;
+}
