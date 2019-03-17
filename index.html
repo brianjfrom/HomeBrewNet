@@ -4,145 +4,7 @@
     <meta charset="utf-8">
     <title>Welcome to Homebrewnet (Renewed)</title>
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-    <style media="screen">
-      body {
-        background-color: lightyellow;
-      }
-      .main {
-        display: grid;
-        grid-template-areas: "head head head head head head"
-                             "sbar welc welc welc welc welc"
-                             "sbar welc welc welc welc welc"
-                             "hb10 hb10 hb10 hb10 hb10 hb10"
-                             "gsgs gsgs gsgs gsgs gsgs gsgs"
-                             "breh breh breh breh breh breh"
-                             "brew brew brew misc misc misc"
-                             "fbob fbob fbob fbob fbob fbob"
-                             "fb01 fb01 fb01 fb01 fb01 fb01"
-                             "yfhd yfhd yfhd yfhd yfhd yfhd"
-                             "yafp yafp yafp yafp yafp yafp"
-                             "seco seco seco seco seco seco"
-                             "secd secd secd secd secd secd";
-      }
-       /* @media screen and (max-width 800px){
-      .main{
-        display: grid;
-        grid-template-areas: "head head head head head head"
-                             "sbar welc welc welc welc welc"
-                             "sbar welc welc welc welc welc"
-                             "hb10 hb10 hb10 hb10 hb10 hb10"
-                             "gsgs gsgs gsgs gsgs gsgs gsgs"
-                             "breh breh breh breh breh breh"
-                             "brew brew brew brew brew brew"
-                             "misc misc misc misc misc misc";}
-      } */
-      .header {
-        grid-area: head;
-        font-family: Courgette;
-        font-size: 3em;
-        text-shadow: 2px 2px 2px lightblue;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        background-image: url(https://images5.alphacoders.com/415/415977.jpg);
-
-      }
-      .sidebar {
-        grid-area: sbar;
-      }
-      .sidebar ul {
-        margin: 0;
-        padding: 0;
-      }
-      .sidebar li {
-        list-style-type: none;
-        padding-top: 10px;
-        padding-left: 10px;
-        font-size: 1.75em;
-      }
-      a {
-        text-decoration: none;
-        color: black;
-      }
-      .welcome {
-        grid-area: welc;
-        font-size: 1.5em;
-        margin: 10px;
-      }
-      .welcome img  {
-        float: left;
-        margin-right: 10px;
-      }
-      .hb101 {
-        grid-area: hb10;
-      }
-      .gs {
-        grid-area: gsgs;
-        font-size: 1.25em
-      }
-      .gs .img1 {
-        float: left;
-        padding-right: 15px;
-      }
-      .gs .img2 {
-        float: right;
-      }
-      .gs .img3 {
-        float: right;
-      }
-      .brewhead {
-        grid-area: breh;
-      }
-      .logo {
-        color: lightyellow;
-        text-shadow: 1px 1px black;
-      }
-      .brew1 {
-        grid-area: brew;
-        font-size: 1.25em;
-      }
-      .misc {
-        grid-area: misc;
-        font-size: 1.25em;
-        padding-left: 25px;
-      }
-      .fbobhead {
-        grid-area: fbob;
-      }
-      .banhead {
-        font-family: verdana;
-        background-color: lightblue;
-      }
-      .banhead ul {
-        margin: 0;
-        padding: 0;
-      }
-      .banhead li {
-        display: inline;
-        padding-right: 15px;
-      }
-      .fbob{
-        grid-area: fb01;
-        font-size: 1.25em;
-      }
-      .new {
-        color: blue;
-      }
-      .yafhead {
-        grid-area: yfhd;
-      }
-      .yaf {
-        grid-area: yafp;
-        font-size: 1.25em;
-      }
-      .secondhead {
-        grid-area: seco;
-      }
-      .secfer {
-        grid-area: secd;
-        font-size: 1.25em;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="C:\Users\XVC9675\Desktop\Projects\hbnet\hbnet\main.css">
   </head>
   <body>
   <div class="main">
@@ -158,7 +20,6 @@
      </ul>
    </div>
     <div class="welcome">
-      <img src="https://initiate.alphacoders.com/images/981/cropped-200-200-981891.jpg?3930" alt="hops-and-grain">
      <p>Welcome to Homebrewnet, this website was originaly hosted by Geocities back in the late 1990's. During that time the moderen internet was very young and so was the creator of this page.  Time has passed and this host of information faded away, much like Geocities itself. Now is the time to renew the page and bring it back from the dead.</p>
      <p>Homebrewnet was an experiment of sorts, here was a young kid that enjoyed brewing, (and drinking), and wanted to show his knowlege to the world.  Learning how to code in early days of html was... hard. Things did not look as good as they do today.  Please enjoy the renewal.</p>
    </div>
@@ -168,10 +29,10 @@
        <li class="logo"><b>Homebrewing 101</b></li>
        <li><a href="#">Getting Started</a> </li>
        <li><a href="#brewing">Brewing 101</a> </li>
-       <li><a href="#">Your First Batch</a> </li>
-       <li><a href="#">Yeast and Fermenting</a> </li>
-       <li><a href="#">Second Fermentation</a> </li>
-       <li><a href="#">Bottiling and Ageing</a> </li>
+       <li><a href="#fbobhead">Your First Batch</a> </li>
+       <li><a href="#yahead">Yeast and Fermenting</a> </li>
+       <li><a href="#secondhead">Second Fermentation</a> </li>
+       <li><a href="#bottlehead">Bottiling and Ageing</a> </li>
      </ul>
    </div>
    </div>
@@ -210,10 +71,10 @@
        <li><a href="#hb101"></a>Homebrewing 101</li>
        <li><a href="#hb101">Getting Started</a> </li>
        <li class="logo"><b>Brewing 101</b> </li>
-       <li><a href="#">Your First Batch</a> </li>
-       <li><a href="#">Yeast and Fermenting</a> </li>
-       <li><a href="#">Second Fermentation</a> </li>
-       <li><a href="#">Bottiling and Ageing</a> </li>
+       <li><a href="#fbobhead">Your First Batch</a> </li>
+       <li><a href="#yahead">Yeast and Fermenting</a> </li>
+       <li><a href="#secondhead">Second Fermentation</a> </li>
+       <li><a href="#bottlehead">Bottiling and Ageing</a> </li>
      </ul>
    </div>
    </div>
@@ -257,7 +118,7 @@
             <li class="logo"><b>Your First Batch</b></li>
             <li><a href="#yahead">Yeast and Fermenting</a> </li>
             <li><a href="#secondhead">Second Fermentation</a> </li>
-            <li><a href="#">Bottiling and Ageing</a> </li>
+            <li><a href="#bottlehead">Bottiling and Ageing</a> </li>
           </ul>
         </div>
         </div>
@@ -285,8 +146,8 @@
           <li><a href="#brewing">Brewing 101</a> </li>
           <li><a href="#fbobhead">Your First Batch</a> </li>
           <li class="logo"> <b>Yeast and Fermenting</b> </li>
-          <li><a href="#">Second Fermentation</a> </li>
-          <li><a href="#">Bottiling and Ageing</a> </li>
+          <li><a href="#secondhead">Second Fermentation</a> </li>
+          <li><a href="#bottlehead">Bottiling and Ageing</a> </li>
         </ul>
       </div>
     </div>
@@ -310,7 +171,7 @@
           <li><a href="#fbobhead">Your First Batch</a> </li>
           <li><a href="#yahead">Yeast and Fermenting</a></li>
           <li class="logo"><b>Second Fermentation</b> </li>
-          <li><a href="#">Bottiling and Ageing</a> </li>
+          <li><a href="#bottlehead">Bottiling and Ageing</a> </li>
         </ul>
       </div>
     </div>
@@ -319,7 +180,37 @@
       <p>This process of second fermentation is not one that needs to be done, though it does help in the final product, your beer.  The process of second fermentation will take approx. 5-7 days though can take longer or shorter depending on the type of beer and yeast.  If you do not wish to do a second fermentation than go to bottling and sugars.  If you are interested in second fermentation then you will need a couple of items, a racking hose and another fermenter.  All that you are doing in second fermentation is taking the "beer" off the packed yeast at the bottom of the fermenter.  By moving the beer from one fermenter to another, you will get the yeast to start fermenting all that sugar that will still be in the beer.  Like I said this process is not that important, though if you are trying to make a great beer then I would recommend it.  By doing so you will reduce over carbonization of the beer and it will have a little bit better flavor because it will have Fully fermented.</p>
       <p>Ok here is the process, it's an easy one.  From one fermenter to another transfer your beer, making sure that you leave that bottom yeast where it belongs, at the bottom.  Also make sure that you do not aerate the beer.  So run the tubing down the wall of the fermenter like you did in the original fermentation.  After you have transferred all the beer to another fermenter DO NOT fill it  with water.  By doing so you will throw off the S.G. and you may introduce some bacteria to the fermenter.  So after you transfer the beer, just cover and add the water lock.  Then just place your fermenter in a corner and let it sit through a brief, but important ferment.  It should take a couple of days, though it can be done in as few as 24 hours.  </p>
       <p>When you fermenter has stopped fermenting, let it sit about 2-3 days to make sure that the fermentation has stoped.  After that point you are ready to bottle.  Which means that we are now so close to the best part of homebrewing, the taste test...</p>
-
+    </div>
+    <div class="bottlehead" id="bottlehead">
+      <div class="banhead">
+        <ul>
+          <li><a href="#hb101"></a>Homebrewing 101</li>
+          <li><a href="#hb101">Getting Started</a> </li>
+          <li><a href="#brewing">Brewing 101</a> </li>
+          <li><a href="#fbobhead">Your First Batch</a> </li>
+          <li><a href="#yahead">Yeast and Fermenting</a></li>
+          <li><a href="#secondhead">Second Fermentation</a></li>
+          <li class="logo"> <b>Bottiling and Ageing</b> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottle">
+      <p>	After the fermentation process, the process of bottling is one of the most important.  Because if you do not sterlize right or, carbonate right, all that hard work that you have already done may be ruined.  So this process is very important</p>
+      <h4>Sterlizing</h4>
+      <p>This is one of the most imortant things that you can do in homebrewing, remember to keep everything clean at all times.  This will be what can make or break your homebrew.  Actually this process is really easy, though many people don't put enough concideration into it, where they should.  It's a process that can take the homebrewer from 1 hour to 4 hours depending on what method you use.  Though what is four more hours compared to a great batch of homebrew?  The easiest and most cost effective way of sanitizing is by chemical means.  Most homebrew shops sell some sort of chemical cleaner for the Carboys and bottles though you do not have to use the manufactured products, you can make your own with what you have in your own house.  Remember that it is your decision, but this does need to be done.  If you decided to buy something at your local brew shop make sure that you follow the manufactures intructions.  If you decided to make your own chemical cleaner, here is how.  Fill an empty carboy with 5 gallons of cool water, then add about 1 cup of bleech to the water.  This dilution will be enough to kill any micro-organism that might live in beer or your bottles.  All that you have to do is soak your bottles in the bleech water for about 5 minutes, then rinse the bottles in hot, hot water, this will kill the bleech, that can disflavor your beer.  You can also clean your carboy in this same manner.  Make sure that you clean your bottles right before you bottle, because if you were to clean your bottles a week before, and so not have them caped, anything could grow in them again.  If you decided to by used bottles, and are wondering how to get those nasty lables off the bottles. A mixture of water and ammonia, let the bottle soak and the glue under the labels will disolve.  Rinse well with warm water before Sterlizing with bleach. (Do not mix bleach and ammonia it can kill you).
+        <br>The easist way to sterlize your bottle caps is to place them in to boiling water for About 5-10 min right before you are about to bottle...</p>
+      <h4>Carbonization</h4>
+      <p>The easiest and most fool proof way to carbonate is to use Corn sugar.  Take a pint of water and add EXACTLY 3/4 cup of corn sugar, place that into a pan and stir well, heat until boil.  When the sugar water has reached a boil count two min and remove, let it cool for a couple of minutes.  Then add it to a clean, empty carboy, (the one that you are going to bottle out of).  Then rack the fermented beer into the carboy that has the sugar water, making sure not to aerate the beer...</p>
+      <h4>Bottling</h4>
+      <p>All that you really have to do is basicly add the beer, that has the suger water added to your, now sterlized bottles.  Making sure that you leave about an inch or so at the top so that the carbonization will work.  Then all that is left to do is cap it and let it age, before you can drink it.</p>
+      <h4>Aging</h4>
+      <p>You will need to let your bottled beer age for a minimum of 7-14 days.  You can drink it before that, though it may be very flat.  So I would reccomend that you let it sit 7-14 days.  When your days are up you are now ready to drink.</p>
+      <br>
+      <br>
+      <hr>
+    </div>
+    <div class="footer">
+      &copy; Hombrewnet December 1, 1998 &copy; 2019
     </div>
   </div>
   </body>
