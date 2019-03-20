@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HomeBrewNet Recipes</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <style media="screen">
+    body {
+  /*    display: grid; */
+      background-color: lightblue;
+    }
+    body p {
+      margin: 15px
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .header {
+      font-family: Courgette;
+      font-size: 3em;
+      text-shadow: 2px 2px 2px lightblue;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-image: url(https://images5.alphacoders.com/415/415977.jpg);
+      border: 2px solid black;
+      position: relative;
+    }
+    .header ul {
+      position: absolute;
+      top: 56%;
+      right: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .header li {
+      font-size: 1.25rem;
+      display: inline;
+      border: 2px solid black;
+      padding: 10px;
+    }
+    .header li:hover {
+      background-color: black;
+      color: white;
+    }
+    .grid {
+      display: grid;
+      /* width: 50%;
+      grid-template-rows: auto; */
+      grid-template-areas: "r1 r2 r3"
+                           "r4 r5 r6"
+                           "r7 r8 ..";
+      grid-gap: 10px;
+      background-color: lightyellow;
+      }
+      .recipe .title {
+        font-family: verdana;
+        text-align: center;
+        color: darkblue;
+      }
+    .recipe {
+      border: 2px solid black;
+    }
+    .recipe1 {grid-area: r1;}
+    .recipe2 {grid-area: r2;}
+    .recipe3 {grid-area: r3;}
+    .recipe4 {grid-area: r4;}
+    .recipe5 {grid-area: r5;}
+    .recipe6 {grid-area: r6;}
+    .recipe7 {grid-area: r7;}
+
+      li {
+        list-style-type: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1><em>Homebrewnet - Recipes</em></h1>
+      <ul>
+        <li><a href="#">Homebrewing 101</a></li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Calculations</a></li>
+        <li><a href="#">Links</a></li>
+      </ul>
+    </div>
+     <div class="grid" >
+       <div class="recipe recipe1">
+      <div class="title" id="BBIPA">
+        <h2>	Brown Bear IPA</h2>
+      </div>
+      <div class="type">
+        <h3>Type: Extract</h3>
+      </div>
+      <div class="ingreadients">
+        <h4>Ingreadients:</h4>
+        <ul>
+          <li>6 lbs amber malt extract</li>
+          <li>1 lb Crystal malt</li>
+          <li>1/4 lb roasted malt</li>
+          <li>3 oz Fuggles hops</li>
+          <li>1 oz Cascade hops (finishing)</li>
+        </ul>
+      </div>
+      <div class="directions">
+        <h4>Directions</h4>
+        <p>	Into a boiling pot added 2 1/2 gallons of distilled water, added the grain bags with the crystal and roasted malt. Placed the pot onto the stove and started the boil. Just before the boil, removed the grains. At full boil add the 6 lbs. of amber malt. Placed the pot back on to the stove, and got the wort boiling again. At boil add the fuggle hops and let boil for 50 minutes. In the last five minutes of the 50 I added the cascade hops and let them boil. At end of boil, removed the hops and cooled the wort. To a clean carboy, add 2 1/2 gallons of spring water, then add the cooled wort and then pitch the yeast, cover and place on a water lock.
+        <br>Let the wort ferment for about 15 days then bottled. After the bottling I let the beer condition for around 2 weeks. </p>
+      </div>
+      <div class="other"><p>Comments:
+        Let the wort ferment for about 15 days then bottled. After the bottling I let the beer condition for around 2 weeks.</p>
+          <button type="button" name="BBIPA">Print Recipe</button>
+      </div>
+    </div>
+        <div class="recipe recipe2">
+          <div class="title" id="bpa">
+            <h2>Basic Pale Ale</h2>
+          </div>
+          <div class="type">
+            <h3>Type: Extract</h3>
+          </div>
+          <div class="ingreadients">
+            <h4>Ingreadients:</h4>
+            <ul>
+              <li>9 Lbs. Pale malt extract</li>
+              <li>.5- 1.0 ounces Northern Brewer Hop (Pellets)</li>
+              <li>.5 ounces Cascade hops (Finishing)</li>
+              <li>1 pkg wyeast "British ale yeast" 1098</li>
+            </ul>
+          </div>
+          <div class="directions">
+            <h4>Directions</h4>
+            <p>Into a boiling pot add 2 1/2 gallons of distilled water. Let the water reach a full boil to add the 9 lbs pale malt extract and let the pot come back to a full boil. When the water reached a full boil again add the .5 - 1.0 oz of Northern brewer's hops and let them boil one hour. About 10 minutes before the end of the boil add the .5 oz of cascade hops and leave in till the end of the boil. After the boil remove the hops and placed in cooling bath for about 40 minutes. When the wort is cool add it to the fermenter with another 2.5 gallons of water. Let sit about 20 minutes then pitch the yeast. Cover and add a water lock.</p>
+          </div>
+          <div class="other">
+            <p>OG 1.050 <br>
+              IBU's 25</p>
+          <button type="button" name="bpa">Print Recipe</button>
+          </div>
+      </div>
+      <div class="recipe recipe3" id="gis">
+            <div class="title">
+              <h2>Clone of Guinness Irish Stout	</h2>
+            </div>
+            <div class="type">
+              <h3>Type: Extract</h3>
+            </div>
+            <div class="ingreadients">
+              <h4>Ingreadients:</h4>
+              <ul>
+                <li>7lbs Dark Malt extract</li>
+                <li>3/4 lb Crystal malt 80* L (Bries)</li>
+                <li>1/3 lb Roasted barley (De Wolf-caissons)</li>
+                <li>1/3 lb Black Pat. (De Wolf-caissons)</li>
+                <li>2 oz Northern Brewer hops (pellets)</li>
+                <li>1 Pkg wyeast Liquid "Irish Ale Yeast" #1084</li>
+              </ul>
+            </div>
+            <div class="directions">
+              <h4>Directions:</h4>
+              <p>Into a boiling pot added 2 1/2 gallons of distilled water, Then added the crystal, Roasted and Black Pat. malt into a hop bag, which I placed in the water. Placed the water/Grain onto the stove at a med/high heat, for which let the grains just kind of steap for about an hour. When the water was just about to boil, I removed the grains and sparged with about a quart of warm water to get out any of the left over fermentables. After that let the wort reach a full boil to where I add the 7 lbs dark malt extract and let the pot come back to a full boil. When the water reached a full boil again I added the 2 oz of Northern brewer's hops and let them boil one hour. After the boil remove the hops and placed in cooling bath for about 40 minutes. When the wort is cool add it, to the fermenter with another 2.5 gallons of water. Let sit about 20 minutes then pitch the yeast. Cover and add a water lock, and wait for the magic to happen. <br>
+              Let the wort ferment for about 15 days then bottled. After the bottling I let the beer condition for around 2 weeks.</p>
+            </div>
+            <div class="other">
+              <h4>Comment:</h4>
+              <p>Excelent clone of guinness stout. For those of you that ae looking for a close clone this is the one for you. Will definatly repeat this recipe again for a St. Patricks day celebration. <br>
+
+              Great flavor, nice hop to grain ratio ****</p>
+              <button type="button" name="gis">Print Recipe</button>
+            </div>
+          </div>
+          <div class="recipe recipe4">
+                <div class="title" id="rvp">
+                  <h2>	Rich Victorian Porter	</h2>
+                </div>
+                <div class="type">
+                  <h3>Type: Extract</h3>
+                </div>
+                <div class="ingreadients">
+                  <h4>Ingreadients:</h4>
+                    <ul>
+                      <li>2 cans Alexander's 4# pale malt (aprox 7 lbs bulk)</li>
+                      <li>8 ounces (2 cans) chocolate Grain</li>
+                      <li>8 Ounces Dark crystal grain</li>
+                      <li>1 bag, 8 ounces Malto- dextrine</li>
+                      <li>2 ounces Kent Golding hop plugs/ pellets</li>
+                      <li>2 Packets Munton's Gold ale Yeast</li>
+                      <li>2 Hop Bag</li>
+                    </ul>
+                </div>
+                <div class="directions">
+                  <h4>Directions:</h4>
+                  <p>	Add all grains (in a hop bag) to 1.5 to 2.0 gallons of cold water in brew pot. Bring water just to a boil and then remove the grains. Bring to a boil and add the 2 oz. Kent Golding Hops (in a hop bag), with the 2 cans of malt extract and the 8 oz. of Malto- dexitrin. Keep at a breaking boil for one hour. Cool rapidly, making mixture up to 5 gallons. Rehydrate and pitch the yeast when the wort is a at 70 degrees or less. Ferment as usual.</p>
+                </div>
+                <div class="other">
+                  <h4>Recipe by byob.com on May 17, 1999</h4>
+                  <button type="button" name="rvp">Print Recipe</button>
+                </div>
+            </div>
+            <div class="recipe recipe5">
+                  <div class="title" id="os">
+                    <h2>Oatmeal Stout</h2>
+                  </div>
+                  <div class="type">
+                    <h3>Type: Extract</h3>
+                  </div>
+                  <div class="ingreadients">
+                    <h4>Ingreadients:</h4>
+                    <ul>
+                      <li>6 lbs. Amber, dry malt extract</li>
+                      <li>1 lb. Crystal malt, 60 degree L</li>
+                      <li>1.5 lb American six-row pale ale malt</li>
+                      <li>18 oz. Oatmeal (quick)</li>
+                      <li>0.5 lb. Chocolate malt</li>
+                      <li>0.5 lb. Roasted malt</li>
+                      <li>1/2 tsp. Irish moss, for 15 minutes</li>
+                      <li>2 oz. Fuggles hop pellets (4.2% alpha acids), for 45 minutes</li>
+                      <li>Wyeast 1084, Irish ale yeast</li>
+                    </ul>
+                  </div>
+                  <div class="directions">
+                    <h4>Directions:</h4>
+                    <p>Prepare the yeast starter a day or two before brew day.
+                    Crush the speciality grains and malt, and mix them with the Oats in a course, nylon bag. Tie the bag into a knot to seal it. Heat 3 gallons of water to 155* F in a pot with a lid add the nylon bag of grains. Keep the pot covered, maintaining a temperature between 150* and 158* F for one hour to convert the starch. This can be done, for example, by placing the entire pot in an over that has been preheated to 150* F. Remove the grain bag and pour 1 qt of rinse water over into the pot. This rinses some of the residual sugars from the grains. In a seperate pot bring 3 gallons of water to a boil for at least 15 minutes. Add 2 of these gallons to a clean, sanitized fermenter. Keep the other gallon of water coverd, in reserve. Bring the wort to a boil and slowly but vigorously mix in the dry malt extract. Boil the wort vigorously for 15 minutes and add the hops. Boil for 30 more minutes and add the Irish moss and boil 15 minutes more. Total boil time is 60 minutes. Cool the wort to room temperature within 30 minutes of the end of boil. Siphon the wort off of the trub, into the fermenter, adding the reserved water as necessary to bring the final wort volume to 5.5 gallons. <br>
+                    Aerate the wort for 15 minutes. Mix in the yeast starter to the wort. Seal the fermenter with an air lock and ferment as usual.</p>
+                  </div>
+                  <div class="other">
+                    <p>OG = 1.054 <br>
+                     IBU = 34</p>
+                     <h5>Recipe by Brew Your Own Magazine on October 1, 1997</h5>
+                     <button type="button" name="os">Print Recipe</button>
+                  </div>
+              </div>
+              <div class="recipe recipe6">
+                    <div class="title" id="kka">
+                      <h2>Kill Kenny Ale</h2>
+                    </div>
+                    <div class="type">
+                      <h3>Type: Extract</h3>
+                    </div>
+                    <div class="ingreadients">
+                      <h4>Ingreadients:</h4>
+                      <ul>
+                        <li>8.0 Lbs pale ale Malt extract</li>
+                        <li>1.0 lb Crystal malt</li>
+                        <li>1.0 oz Challenger Hops (start)</li>
+                        <li>1.0 oz Northdown Hops (start)</li>
+                        <li>0.5 oz fuggle hops (last 15 minutes)</li>
+                        <li>0.5 Goldings Hops (last 5 minutes)</li>
+                        <li>1 Pkg wyeast American ale yeast #1056</li>
+                      </ul>
+                    </div>
+                    <div class="directions">
+                      <h4>Directions:</h4>
+                      <p>Into a Boiling pot add 2 1/2 gallons of distilled water, then add the crystal malt into a hop bag, and place into the water. Place the water/ grain onto the stove at a med/high Heat, which should let the grains steep for about an hour. When the water is about to boil, remove the grains and sparge with about a quart of warm water to get out any of the left over fermentables. After let the wort reach a full boil then add the 8.0 lbs of pale ale malt extract and let the pot come back to a full boil again. When the pot has reached a full boil again add the 1.0 oz of challenger hops and the 1.0 oz of northdown hops and let them boil for 90 minutes. Fifteen minutes before the end of the boil add the 0.5 fuggle hops, then when there is five minutes left in the boil add the golding hops. After the end of the boil remove the grains and place the boiling pot into a cooling bath for about 40 minutes. When the wort is cool add it to the fermenter with another 4.0 gallons of spring water. Let sit about 20 minutes then pitch the yeast. Cover and add a water lock <br> Recipe make 6.5 gallons
+                      </p>
+                    </div>
+                    <div class="other">
+                      <p>OG 1.048 <br> IBU's 33.0</p>
+                      <button type="button" name="kka">Print Recipe</button>
+                    </div>
+                </div>
+                <div class="recipe recipe7">
+                      <div class="title" id="csa">
+                        <h2>Cavan Swamp Ale</h2>
+                      </div>
+                      <div class="type">
+                        <h3>Type: All-Grain</h3>
+                      </div>
+                      <div class="ingreadients">
+                        <h4>Ingreadients:</h4>
+                        <ul>
+                          <li>13 lbs. 2-row barley malt- United Canada Malt</li>
+                          <li>1 lb. wheat- USA</li>
+                          <li>1 lb. crystal- UK</li>
+                          <li>1.5 lbs. 2-row barley malt toasted in oven for 20 min.</li>
+                          <li>1 oz. Northern Brewer hop pellets- 60 min.</li>
+                          <li>1 oz. Cascade hop pellets- 30 min</li>
+                          <li>15 Cascade hop pellets- last 2 min.</li>
+                          <li>1056 American- pint starter made.</li>
+                        </ul>
+                      </div>
+                      <div class="directions">
+                        <h4>Directions:</h4>
+                        <p>Before you begin toast your malt in the oven on a cookie sheet. Spread it around evenly. Pre-heat oven at 300 degrees. Toast for 10 min. Turn the grains and continue for another 10 min. Great Smell! Using an infusion mash heat 17 quarts of water to 170 degrees and add all grains. It should stabilize to around 160 degrees. Cover for 1 hour. Sparge with 5 gallons of 170 degree water.Boil for 1 hr. Primary for 4 days. Secondary for 2 weeks. Bottle. Should taste toasty and malty.</p>
+                      </div>
+                      <div class="other">
+                        <p>(OG) 1.050 <br> (FG) 1.010</p>
+                        <p>This recipe makes 27 litres. (6.2 gallons)</p>
+                        <h5>Recipe by Chris Storey on April 16, 2000</h5>
+                        <button type="button" name="csa">Print Recipe</button>
+                      </div>
+                  </div>
+                  <div class="recipe recipe8">
+                        <div class="title" id="ehc">
+                          <h2>Easy Hard Cider</h2>
+                        </div>
+                        <div class="type">
+                          <h3>Type: Cider</h3>
+                        </div>
+                        <div class="ingreadients">
+                          <h3>Ingreadients:</h3>
+                          <ul>
+                            <li>2 large cans of apple juice.  (frozen, from concentrate)</li>
+                            <li>1 cup white granulated sugar.</li>
+                            <li>1 pkg (any brand) champaine yeast</li>
+                          </ul>
+                        </div>
+                        <div class="directions">
+                          <h4>Procedure:</h4>
+                          <p>1.  Let the frozon apple juice thaw. <br>
+                            2.  Add to a one gallon container, the two large cans of apple julce, with about half of the container with water. <br>
+                            3.  In a seperate cup heat one cup of water to boiling, than add the one cup of sugar to the boiling water.  Making sure that the sugar disolves. <br>
+                            4.  Add the sugar water to the  julice/water. <br>
+                            5.  Fill the container almost to the top, leaving a little bit of head space for the yeast to grow. <br>
+                            6.  If the container is to room temperature, which it should be, reconsitute your yeast and add it to the apple juice.<br>
+                            7.  Add a water lock and let ferment, this process may take anywhere from 1 week to several.</p>
+                            <h4>Bottling procedure:</h4>
+                            <p><b>For sparking Cider:</b> Bottle in beer bottles and prime like you would beer, except this a one gallon batch.  Instead of 3/4 of a cup priming sugar, add 3/20 of a cup, or 1.2 oz. <br><br>
+                            <b>For Wine Like Cider:</b> Wait for the cider to finish fermenting, then give the cider about another week,  Just to be safe.  Then you may want to rent a corker, or if you have one all the better.  A one gallon batch usually yields between 5 and 6 bottles of cider depending on the bottle.  Add the cider to the bottles and add corks.  Let sit minimum of 3 weeks before opening.</p>
+                        </div>
+                        <div class="other">
+                          <p>Comments: Enjoy the Cider and remember that all fermented apple juice is cider, anything else is just juice!</p>
+                          <h5>Recipe by Homebrewnet January 19, 2000</h5>
+                          <button type="button" name="ehc">Print Recipe</button>
+                        </div>
+                    </div>
+    </div>
+  <!--   <button onclick="printDiv('BBIPA')">Print Recipt</button> -->
+
+  <!--<div class="recipe">
+        <div class="title">Name</div>
+        <div class="type">type</div>
+        <div class="ingreadients">Something</div>
+        <div class="directions">Directions</div>
+        <div class="other">other</div>
+    </div> -->
+  </body>
+<!--  <script>
+		function printDiv(divName){
+			var printContents = document.getElementById(divName).innerHTML;
+			var originalContents = document.body.innerHTML;
+			document.body.innerHTML = printContents;
+			window.print();
+			document.body.innerHTML = originalContents;
+		}
+	</script> -->
+</html>
