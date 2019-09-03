@@ -1,0 +1,66 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: lightyellow;
+}
+header {
+  font-family: Courgette;
+  background-color: lightyellow;
+  font-size: 3.1vw;
+  text-shadow: 2px 2px 2px lightblue;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  background-image: url(https://images5.alphacoders.com/415/415977.jpg);
+  position: relative;
+}
+.flex-container {
+  display: flex;
+  
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1vw;
+}
+.agtoe, .ibu, .sg {
+  border: 1px black solid;
+  padding-left: 0.5vw;
+  margin: 1vw 0.5vw 1vw 0.5vw;
+  background: lightblue;
+}
+h5 {
+  color: blue;
+}
+footer h5 {
+  color: black;
+  padding-right: 5vw;
+}
+footer {
+  text-align: right;
+}
+@media (max-width: 425px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1vw;
+  }
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+  border: 1px solid #000;
+  position: ;
+  bottom: 0;
+  font-size: 2.5vw;
+}
+.link li {
+  color: black;
+}
+.link ul {
+  position: absolute;
+  top: 60%
+}
